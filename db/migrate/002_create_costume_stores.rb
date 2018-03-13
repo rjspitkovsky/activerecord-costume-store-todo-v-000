@@ -13,3 +13,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
     end
   end
 end
+
+
+#number_of_employees => employees_count
+#in_business? => still_in_business
