@@ -14,3 +14,6 @@ class CreateHauntedHouses < ActiveRecord::Migration[5.1]
     end
   end
 end
+
+#family_friendly? => family_friendly
+#long_descriptiong => description 
