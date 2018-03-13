@@ -1,5 +1,5 @@
 # Create your haunted_houses migration here
-class HountedHouses < ActiveRecord::Migration[5.1]
+class CreateHountedHouses < ActiveRecord::Migration[5.1]
 
   def change
     create_table :haunted_houses do |t|
@@ -13,4 +13,4 @@ class HountedHouses < ActiveRecord::Migration[5.1]
       t.text :long_descriptiong
     end
   end
-end 
+end
